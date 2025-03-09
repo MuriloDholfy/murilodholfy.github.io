@@ -199,7 +199,7 @@
         <p>&#169; 2025 Todos os direitos reservados</p>
     </footer>
     
-    <?php
+    <!--<php
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
         // Endereço de destino do e-mail
         $para = "murilo.dholfy31@gmail.com";
@@ -227,7 +227,7 @@
     } else {
         echo "Método inválido.";
     }
-    ?>
+    ?> -->
 
     <script src="https://unpkg.com/scrollreveal"></script>
     <script src="main.js"></script>
