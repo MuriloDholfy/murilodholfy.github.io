@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GameX - Site de Jogos</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Oswald:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="https://i.postimg.cc/PxTnhmmb/favicon-1.png">
+</head>
+<body id="top">
+    <header class="header">
+        <div class="overlay" data-overlay></div>
+
+        <div class="container">
+            <a href="#" class="logo">
+                <img src="https://i.postimg.cc/h4y5jGhT/logo-1.png" alt="Logo do GameX">
+            </a>
+
+            <button class="nav-open-btn" data-nav-open-btn>
+                <ion-icon name="menu-outline"></ion-icon>
+            </button>
+
+            <nav class="navbar" data-navbar>
+                <div class="navbar-top">
+                    <a href="#" class="logo">
+                        <img src="https://i.postimg.cc/h4y5jGhT/logo-1.png" alt="Logo do GameX">
+                    </a>
+
+                    <button class="nav-close-btn" data-nav-close-btn>
+                        <ion-icon name="close-outline"></ion-icon>
+                    </button>
+                </div>
+
+                <ul class="navbar-list">
+                    <li><a href="#hero" class="navbar-link">Início</a></li>
+                    <li><a href="#" class="navbar-link">Entrar</a></li>
+                    <li><a href="#tournament" class="navbar-link">Torneio</a></li>
+                    <li><a href="#team" class="navbar-link">Equipe</a></li>
+                    <li><a href="#gears" class="navbar-link">Equipamentos</a></li>
+                    <li><a href="#contact" class="navbar-link">Contato</a></li>
+                </ul>
+
+                <ul class="nav-social-list">
+                    <li><a href="#" class="social-link"><ion-icon name="logo-facebook"></ion-icon></a></li>  
+                    <li><a href="#" class="social-link"><ion-icon name="logo-instagram"></ion-icon></a></li>
+                    <li><a href="#" class="social-link"><ion-icon name="logo-github"></ion-icon></a></li>
+                    <li><a href="#" class="social-link"><ion-icon name="logo-youtube"></ion-icon></a></li>
+                </ul>
+            </nav>
+
+            <div class="header-actions">
+                <button class="search"><ion-icon name="search-outline"></ion-icon></button>
+
+                <button class="btn-sign-in">
+                    <div class="icon-box">
+                        <ion-icon name="log-in-outline"></ion-icon>
+                    </div>
+
+                    <span>Entrar</span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <article>
+            <section class="hero" id="hero">
+                <div class="container">
+                    <p class="hero-subtitle">Temporada 8</p>
+                    <h1 class="h1 hero-title">Steam</h1>
+
+                    <div class="btn-group">
+                        <button class="btn btn-primary">
+                            <span>Assistir ao Vivo</span>
+                            <ion-icon name="play-circle"></ion-icon>
+                        </button>
+
+                        <button class="btn btn-link">Realizando Sonhos</button>
+                    </div>
+                </div>
+            </section>
+
+            <div class="section-wrapper">
+                <section class="about" id="about">
+                    <div class="container">
+                        <figure class="about-banner">
+                            <img src="https://i.postimg.cc/Kc3gLCHW/about-img.png" alt="Forma M" class="about-img">
+
+                            <img src="https://i.postimg.cc/MKyM3Vxb/character-1.png" alt="Personagem de Jogo" class="character character-1">
+                            <img src="https://i.postimg.cc/NfwLXFTy/character-2.png" alt="Personagem de Jogo" class="character character-2">
+                            <img src="https://i.postimg.cc/15cXrScv/character-3.png" alt="Personagem de Jogo" class="character character-3">
+                        </figure>
+
+                        <div class="about-content">
+                            <p class="about-subtitle">Encontre um Membro da Equipe</p>
+                            <h2 class="about-title">Experiência exclusiva para gamers <strong>imperdível</strong></h2>
+
+                            <p class="about-text">Em um mundo onde os jogos transcendem o mero entretenimento, convidamos você a se imergir em um universo vibrante, feito sob medida para aqueles que buscam aventura, desafio e camaradagem.</p>
+
+                            <p class="about-bottom-text">
+                                <ion-icon name="arrow-forward-circle-outline"></ion-icon>
+                                <span>Irá aguçar seu cérebro e concentração</span>
+                            </p>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="tournament" id="tournament">
+                    <div class="container">
+                        <div class="tournament-content">
+                            <p class="tournament-subtitle">Confira nosso próximo</p>
+                            <h2 class="h3 tournament-title">Torneios de Jogos!</h2>
+                            <p class="tournament-text">Participe dos nossos eventos eletrizantes que reúnem jogadores de todo o mundo para competir em uma variedade de jogos, demonstrando suas habilidades e estratégias em ambientes de alta competição.</p>
+
+                            <button class="btn btn-primary">Junte-se a nós</button>
+                        </div>
+
+                        <div class="tournament-prize">
+                            <h2 class="h3 tournament-prize-title">Prêmio</h2>
+                            <data value="80000">$80,000</data>
+
+                            <figure>
+                                <img src="https://i.postimg.cc/Zn6QyVNM/prize-img.png" alt="Imagem do Prêmio">
+                            </figure>
+                        </div>
+
+                        <div class="tournament-winners">
+                            <h2 class="h3 tournament-winners-title">Últimos Vencedores</h2>
+
+                            <ul class="tournament-winners-list">
+                                <li>
+                                    <div class="winner-card">
+                                        <figure class="card-banner">
+                                            <img src="https://i.postimg.cc/CxxvFFct/winner-img-1.png" alt="Imagem do Vencedor">
+                                        </figure>
+
+                                        <h3 class="h5 card-title">1º Lugar</h3>
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <div class="winner-card">
+                                        <figure class="card-banner">
+                                            <img src="https://i.postimg.cc/d1jdkC19/winner-img-2.png" alt="Imagem do Vencedor">
+                                        </figure>
+
+                                        <h3 class="h5 card-title">2º Lugar</h3>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="gallery">
+                    <div class="container">
+                        <ul class="gallery-list has-scrollbar">
+                            <li>
+                                <figure class="gallery-item">
+                                    <img src="https://i.postimg.cc/Z5zdcjdL/gallery-img-1.jpg" alt="Imagem da Galeria 1">
+                                </figure>
+                            </li>
+
+                            <li>
+                                <figure class="gallery-item">
+                                    <img src="https://i.postimg.cc/RZ1nbf1x/gallery-img-2.jpg" alt="Imagem da Galeria 2">
+                                </figure>
+                            </li>
+
+                            <li>
+                                <figure class="gallery-item">
+                                    <img src="https://i.postimg.cc/N0grhMb9/gallery-img-3.jpg" alt="Imagem da Galeria 3">
+                                </figure>
+                            </li>
+
+                            <li>
+                                <figure class="gallery-item">
+                                    <img src="https://i.postimg.cc/BvMPJ0wh/gallery-img-4.jpg" alt="Imagem da Galeria 4">
+                                </figure>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+
+                <section class="team" id="team">
+                    <div class="container">
+                        <h2 class="h2 section-title">Membros Ativos da Equipe</h2>
+
+                        <ul class="team-list">
+                            <li>
+                                <a href="#" class="team-member">
+                                    <figure>
+                                        <img src="https://i.postimg.cc/tgCt3DKM/team-member-1.png" alt="Imagem do Membro da Equipe">
+                                    </figure>
+                                    <ion-icon name="link-outline"></ion-icon>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#" class="team-member">
+                                    <figure>
+                                        <img src="https://i.postimg.cc/0jmpk4Sb/team-member-2.png" alt="Imagem do Membro da Equipe">
+                                    </figure>
+                                    <ion-icon name="link-outline"></ion-icon>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#" class="team-member">
+                                    <figure>
+                                        <img src="https://i.postimg.cc/FzZHVg5T/team-member-3.png" alt="Imagem do Membro da Equipe">
+                                    </figure>
+                                    <ion-icon name="link-outline"></ion-icon>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#" class="team-member">
+                                    <figure>
+                                        <img src="https://i.postimg.cc/LXxWknQz/team-member-4.png" alt="Imagem do Membro da Equipe">
+                                    </figure>
+                                    <ion-icon name="link-outline"></ion-icon>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#" class="team-member">
+                                    <figure>
+                                        <img src="https://i.postimg.cc/MHXF9qgg/team-member-5.png" alt="Imagem do Membro da Equipe">
+                                    </figure>
+                                    <ion-icon name="link-outline"></ion-icon>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#" class="team-member">
+                                    <figure>
+                                        <img src="https://i.postimg.cc/Rh8b82Bh/team-member-6.png" alt="Imagem do Membro da Equipe">
+                                    </figure>
+                                    <ion-icon name="link-outline"></ion-icon>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#" class="team-member">
+                                    <figure>
+                                        <img src="https://i.postimg.cc/MZr4vfQw/team-member-7.png" alt="Imagem do Membro da Equipe">
+                                    </figure>
+                                    <ion-icon name="link-outline"></ion-icon>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#" class="team-member">
+                                    <figure>
+                                        <img src="https://i.postimg.cc/hPk50Fs3/team-member-8.png" alt="Imagem do Membro da Equipe">
+                                    </figure>
+                                    <ion-icon name="link-outline"></ion-icon>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#" class="team-member">
+                                    <figure>
+                                        <img src="https://i.postimg.cc/kgWh1jhM/team-member-9.png" alt="Imagem do Membro da Equipe">
+                                    </figure>
+                                    <ion-icon name="link-outline"></ion-icon>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#" class="team-member">
+                                    <figure>
+                                        <img src="https://i.postimg.cc/N0YCW1W6/team-member-10.png" alt="Imagem do Membro da Equipe">
+                                    </figure>
+                                    <ion-icon name="link-outline"></ion-icon>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#" class="team-member">
+                                    <figure>
+                                        <img src="https://i.postimg.cc/tg5vysjL/team-member-11.png" alt="Imagem do Membro da Equipe">
+                                    </figure>
+                                    <ion-icon name="link-outline"></ion-icon>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#" class="team-member">
+                                    <figure>
+                                        <img src="https://i.postimg.cc/PxV6p0Ny/team-member-12.png" alt="Imagem do Membro da Equipe">
+                                    </figure>
+                                    <ion-icon name="link-outline"></ion-icon>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#" class="team-member">
+                                    <figure>
+                                        <img src="https://i.postimg.cc/SQ5Ty0BN/team-member-13.png" alt="Imagem do Membro da Equipe">
+                                    </figure>
+                                    <ion-icon name="link-outline"></ion-icon>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#" class="team-member">
+                                    <figure>
+                                        <img src="https://i.postimg.cc/W1mX6dhh/team-member-14.png" alt="Imagem do Membro da Equipe">
+                                    </figure>
+                                    <ion-icon name="link-outline"></ion-icon>
+                                </a>
+                            </li>
+                        </ul>
+
+                        <button class="btn btn-primary">Ver Todos os Membros</button>
+                    </div>
+                </section>
+
+                <section class="gears" id="gears">
+                    <div class="container">
+                        <h2 class="h2 section-title">Confira nossos Equipamentos</h2>
+
+                        <ul class="gears-list">
+                            <li>
+                                <div class="gears-card">
+                                    <div class="card-banner">
+                                        <a href="#"><img src="https://i.postimg.cc/28YGXW3d/gears-img-1.png" alt="Fone de Ouvido"></a>
+
+                                        <button class="share"><ion-icon name="share-social"></ion-icon></button>
+
+                                        <div class="card-time-wrapper">
+                                            <ion-icon name="time-outline"></ion-icon>
+                                            <span>Em 4 dias</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="card-content">
+                                        <div class="card-title-wrapper">
+                                            <h3 class="h3 card-title">Fone de Ouvido</h3>
+                                            <p class="card-subtitle">e-sports</p>
+                                        </div>
+
+                                        <div class="card-prize">$18</div>
+                                    </div>
+
+                                    <div class="card-actions">
+                                        <button class="btn btn-primary">
+                                            <ion-icon name="add-outline"></ion-icon>
+                                            <span>Adicionar ao Carrinho</span>
+                                        </button>
+
+                                        <button class="btn card-btn">
+                                            <ion-icon name="heart-outline"></ion-icon>
+                                        </button>
+                                    </div>
+                                    
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="gears-card">
+                                    <div class="card-banner">
+                                        <a href="#"><img src="https://i.postimg.cc/ZqjzCmg2/gears-img-2.png" alt="Controle"></a>
+
+                                        <button class="share"><ion-icon name="share-social"></ion-icon></button>
+
+                                        <div class="card-time-wrapper">
+                                            <ion-icon name="time-outline"></ion-icon>
+                                            <span>Em 4 dias</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="card-content">
+                                        <div class="card-title-wrapper">
+                                            <h3 class="h3 card-title">Controle</h3>
+                                            <p class="card-subtitle">e-sports</p>
+                                        </div>
+
+                                        <div class="card-prize">$29</div>
+                                    </div>
+
+                                    <div class="card-actions">
+                                        <button class="btn btn-primary">
+                                            <ion-icon name="add-outline"></ion-icon>
+                                            <span>Adicionar ao Carrinho</span>
+                                        </button>
+
+                                        <button class="btn card-btn">
+                                            <ion-icon name="heart-outline"></ion-icon>
+                                        </button>
+                                    </div>
+                                    
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="gears-card">
+                                    <div class="card-banner">
+                                        <a href="#"><img src="https://i.postimg.cc/2yQsNf40/gears-img-3.png" alt="Máscara Gamer"></a>
+
+                                        <button class="share"><ion-icon name="share-social"></ion-icon></button>
+
+                                        <div class="card-time-wrapper">
+                                            <ion-icon name="time-outline"></ion-icon>
+                                            <span>Em 4 dias</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="card-content">
+                                        <div class="card-title-wrapper">
+                                            <h3 class="h3 card-title">Máscara Gamer</h3>
+                                            <p class="card-subtitle">e-sports</p>
+                                        </div>
+
+                                        <div class="card-prize">$45</div>
+                                    </div>
+
+                                    <div class="card-actions">
+                                        <button class="btn btn-primary">
+                                            <ion-icon name="add-outline"></ion-icon>
+                                            <span>Adicionar ao Carrinho</span>
+                                        </button>
+
+                                        <button class="btn card-btn">
+                                            <ion-icon name="heart-outline"></ion-icon>
+                                        </button>
+                                    </div>
+                                    
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+
+                <section class="newsletter">
+                    <div class="container">
+                        <div class="newsletter-card">
+                            <div class="newsletter-content">
+                                <figure class="newsletter-img">
+                                    <img src="https://i.postimg.cc/Dz1WMn5S/newsletter-img.png" alt="Imagem da Newsletter">
+                                </figure>
+
+                                <h2 class="h2 newsletter-title">Inscreva-se na Newsletter</h2>
+                            </div>
+
+                            <form action="" class="newsletter-form">
+                                <input type="email" name="email" required placeholder="Seu Endereço de Email" class="input-field">
+                                <button type="submit" class="btn btn-secondary">Inscrever-se</button>
+                            </form>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </article>
+    </main>
+
+    <footer>
+        <div class="footer-top">
+            <div class="container">
+                <div class="footer-brand-wrapper">
+                    <a href="#" class="logo"><img src="https://i.postimg.cc/h4y5jGhT/logo-1.png" alt="Logo do GameX"></a>
+
+                    <div class="footer-menu-wrapper">
+                        <ul class="footer-menu-list">
+                            <li><a href="#hero" class="footer-menu-link">Início</a></li>
+                            <li><a href="#about" class="footer-menu-link">Sobre</a></li>
+                            <li><a href="#tournament" class="footer-menu-link">Torneio</a></li>
+                            <li><a href="#team" class="footer-menu-link">Equipe</a></li>
+                            <li><a href="#gears" class="footer-menu-link">Equipamentos</a></li>
+                            <li><a href="#contact" class="footer-menu-link">Contato</a></li>
+                        </ul>
+
+                        <div class="footer-input-wrapper">
+                            <input type="text" name="message" required placeholder="Encontre Aqui Agora" class="footer-input">
+
+                            <button class="btn btn-primary"><ion-icon name="search-outline"></ion-icon></button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footer-quicklinks">
+                    <ul class="quicklink-list">
+                        <li><a href="#" class="quicklink-item">FAQ</a></li>
+                        <li><a href="#" class="quicklink-item">Central de Ajuda</a></li>
+                        <li><a href="#" class="quicklink-item">Termos de Uso</a></li>
+                        <li><a href="#" class="quicklink-item">Privacidade</a></li>
+                    </ul>
+
+                    <ul class="footer-social-list">
+                        <li><a href="#" class="footer-social-link"><ion-icon name="logo-discord"></ion-icon></a></li>
+                        <li><a href="#" class="footer-social-link"><ion-icon name="logo-twitch"></ion-icon></a></li>
+                        <li><a href="#" class="footer-social-link"><ion-icon name="logo-xbox"></ion-icon></a></li>
+                        <li><a href="#" class="footer-social-link"><ion-icon name="logo-youtube"></ion-icon></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="container">
+                <p class="copyright">Copyright &copy; 2025 <a href="#">ULTRA CODE</a>. Todos os direitos reservados</p>
+
+                <figure class="footer-bottom-img">
+                    <img src="https://i.postimg.cc/432bbz4J/footer-bottom-img.png" alt="Logos de Empresas de Pagamento Online">
+                </figure>
+            </div>
+        </div>
+    </footer>
+
+    <a href="#top" class="btn btn-primary go-top active" data-go-top><ion-icon name="chevron-up-outline"></ion-icon></a>
+
+    <script src="script.js"></script>
+</body>
+</html>
